@@ -1,0 +1,13 @@
+#!/bin/sh
+
+PARTITIONS=150
+NAME="mystore"
+PORT=5000
+HTTPPORT=5001
+MEMORY=100
+CAP=3
+TOPO="mytopo"
+POOL="mypool"
+DCNAME="west"
+RF=3
+KVADMIN="java -jar $KVHOME/lib/kvstore.jar runadmin -host $NODE1 -port $PORT"
